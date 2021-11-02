@@ -2,17 +2,13 @@ const express = require('express')
 const app = express()
 
 app.set('view engine', 'ejs')
+app.use(express.static('public'))
 
-app.get('/:name?/:lang?', (req,res) => {
-    var name = req.params.name
-    var lang = req.params.lang
-    
-    res.render("index.ejs",{
-        name: name,
-        lang: lang,
-    })
+
+app.get('/', (req,res) => {
+    res.render("index.ejs")
 })
-
+ 
 app.listen(3030, () => {
     console.log('Running')
 })
