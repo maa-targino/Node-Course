@@ -1,6 +1,10 @@
 Question-and-answer platform with Node.js
 =========================================
 
-![node](https://github.com/maa-targino/Node-Project/blob/main/node.png)
+### Presentation:
+- This is a project to develop skills with Node.js with Nodemon, Express, Bootstrap and REST API.
 
-### Project to develop skills with Node.js
+## Node.js implementation
+# ![Node.js-Logo](https://github.com/maa-targino/Node-Project/blob/main/nodejs-logo.png)
+
+### Installing Node.js on VS Code:
