@@ -1,4 +1,4 @@
-Plataforma de perguntas e respostas
-===================================
+Question-and-answer platform
+=============================
 
-Course project to develop skills with Node.js
+### Project to develop skills with Node.js
